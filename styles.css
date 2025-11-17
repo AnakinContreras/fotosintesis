@@ -1,5 +1,5 @@
 *{padding: 0px;margin: 0px;}
-body{background-color: #95e9df;font-family: Consolas;}
+body{background-color: #95e9df;background-image: url(fondo.png);background-repeat: no-repeat;background-size: 3000px 700px;background-position: center;background-position-y: 710px;font-family: Consolas;}
 header{padding: 20px;background-color: #34c6d1;text-align: center;color: #b6e4ab;font-size: 40px;size: 100%;}
 p{margin-bottom: 20px;text-align: justify;}
 h1{margin-bottom: 20px;}
