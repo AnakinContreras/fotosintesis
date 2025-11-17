@@ -19,17 +19,22 @@
         </article>
     </div>
     <marquee direction="left" scrolldelay="200"><img src="sun.png" alt="sol" width="200px"></marquee>
-    <center><img src="planta.png" alt="planta" width="300px"></center>
-    
-    <map name=""></map>
+    <center><img src="planta.png" alt="planta" width="300px" usemap="#Fotosíntesis"></center>
+    <map name="Fotosíntesis">
+        <area shape="rect" coords="62,70,172,131" href="#Lugar" alt="Lugar donde ocurre">
+        <area shape="rect" coords="165,142,264,202" href="#Fase" alt="Fase luminosa">
+        <area shape="rect" coords="28,174,153,234" href="#Variante" alt="Variante de la fase luminosa">
+        <area shape="rect" coords="153,232,232,290" href="#Ciclo" alt="Ciclo de Calvin">
+        <area shape="rect" coords="40,275,142,346" href="#Balance" alt="Balance general y relevancia">
+    </map>
     <div class="deep">
         <div class="content">
-            <article class="card">
+            <article class="card" id="Lugar">
                 <h1>Lugar donde ocurre</h1>
                 <p>La fotosíntesis sucede dentro de estructuras especializadas presentes en las células vegetales llamadas cloroplastos.</p>
                 <p>En ellos se encuentran los tilacoides, donde ocurre la fase luminosa, y el estroma, donde tiene lugar el ciclo de Calvin, manteniendo organizadas las etapas del proceso.</p>
             </article>
-            <article class="card">
+            <article class="card" id="Fase">
                 <h1>Fase luminosa (dependiente de la luz)</h1>
                 <p>Esta fase es la parte más activa en cuanto al uso directo de la luz; es donde comienza toda la conversión energética.</p>
                 <ol>
@@ -40,7 +45,12 @@
                     <li>Se produce ATP y se forma NADPH.</li>
                 </ol>
             </article>
-            <article class="card">
+            <center>
+                <video controls autoplay="true">
+                    <source src="fotosintesis.mp4" type="video/mp4">
+                </video>
+            </center>
+            <article class="card" id="Variante">
                 <h1>Variante de la fase luminosa: cíclica</h1>
                 <p>Esta variante sirve como apoyo cuando la célula requiere más ATP para equilibrar el ciclo de Calvin.</p>
                 <ol>
@@ -49,7 +59,7 @@
                     <li>Su principal función es generar ATP adicional.</li>
                 </ol>
             </article>
-            <article class="card">
+            <article class="card" id="Ciclo">
                 <h1>Ciclo de Calvin (fase oscura o independiente de la luz)</h1>
                 <p>Esta etapa no depende de la luz directa, pero sí usa la energía obtenida previamente para construir compuestos orgánicos.</p>
                 <ol>
@@ -59,11 +69,16 @@
                     <li>Parte del G3P forma glucosa y el resto regenera RuBP.</li>
                 </ol>
             </article>
-            <article class="card">
+            <article class="card" id="Balance">
                 <h1>Balance general y relevancia</h1>
                 <p>La fotosíntesis en conjunto convierte energía solar en azúcares y libera oxígeno, siendo vital para casi todos los ecosistemas. <br>La ecuación resumida es:</p>
                 <p>6 CO₂ + 12 NADPH + 18 ATP → C₆H₁₂O₆ + 12 NADP⁺ + 18 ADP + 18 Pi</p>
                 <p>Gracias a este proceso se mantiene la disponibilidad de oxígeno y se produce la base energética de la mayoría de las cadenas alimenticias.</p>
+            </article>
+            <article class="card">
+                <h1>Encuesta</h1>
+                <p>Para ayudarnos a la mejora de esta pagina, agradezceria que contestasen la encuesta dentro del siguiente link:</p>
+                <a href="encuesta.html">Ir a la encuesta</a>
             </article>
         </div>
     </div>

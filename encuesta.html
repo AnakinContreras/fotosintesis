@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Encuesta</header>
+    <div class="content">
+            <div class="card-sky">
+            <h1>Formulario de Opinión</h1>
+            <p>Ayúdanos respondiendo esta encuesta relacionada con el contenido del sitio principal.</p>
+            <form action="mailto:anakincontrerasm@gmail.com" method="POST" enctype="text/plain">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" required>
+                <label>Correo electrónico:</label>
+                <input type="email" name="correo" required>
+                <label>Edad:</label>
+                <input type="number" name="edad" min="1" max="120" required>
+                <label>¿Te gustó el contenido de la página principal?</label>
+                <input type="radio" name="gusto" value="si"> Sí
+                <input type="radio" name="gusto" value="no"> No
+                <label>¿Qué secciones te interesaron más?</label>
+                <input type="checkbox" name="interes" value="videos"> Videos<br>
+                <input type="checkbox" name="interes" value="texto"> Artículos<br>
+                <input type="checkbox" name="interes" value="imagenes"> Imágenes
+                <label>Califica el diseño visual:</label>
+                <label>Intuitividad del sitio (1 a 10):</label>
+                <input type="range" name="intuitividad" min="1" max="10">
+                <label>Sube una imagen que represente tu experiencia:</label>
+                <input type="file" name="archivo">
+                <label>Fecha de visita:</label>
+                <input type="date" name="fecha">
+                <label>Color que asocies al sitio:</label>
+                <input type="color" name="color">
+                <label>Comentarios adicionales:</label>
+                <textarea name="comentarios" rows="5"></textarea>
+                <button type="submit">Enviar encuesta</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
