@@ -1,0 +1,10 @@
+*{padding: 0px;margin: 0px;}
+body{background-color: #95e9df;font-family: Consolas;}
+header{padding: 20px;background-color: #34c6d1;text-align: center;color: #b6e4ab;size: 100%;}
+p{margin-bottom: 20px;}
+h1{margin-bottom: 20px;}
+ol{margin: 40px;margin-bottom: 20px;}
+.content{padding: 10px;margin: 0px;margin-left: calc(50% - 300px);margin-right: calc(50% - 300px);margin-top: 100px;}
+.deep{background: linear-gradient(#412c1a, #0c0401);}
+.card{padding: 20px;padding-left: 30px;padding-right: 30px;margin-bottom: 20px;border-radius: 10px;background-color: #835c3c;}
+.card-sky{padding: 20px;padding-left: 30px;padding-right: 30px;margin-bottom: 20px;border-radius: 10px;background-color: #cffbf6;}
