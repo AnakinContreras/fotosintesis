@@ -11,7 +11,7 @@ label{font-weight: bold;color: #0c0401;}
 input, select, textarea{padding: 10px;border-radius: 5px;border: 1px solid #412c1a;}
 button{padding: 12px;border: none;border-radius: 10px;background-color: #34c6d1;color: white;font-weight: bold;cursor: pointer;}
 button:hover{background-color: #268e97;}
-.body-sky{background-image: url(fondo.png);background-repeat: no-repeat;background-size: 3000px 700px;background-position: center;background-position-y: 710px;}
+.body-sky{background-image: url(fondo.png);background-repeat: no-repeat;background-size: 6000px;background-position: center;background-position-y: 920px;}
 .content{padding: 10px;padding-top: 100px;margin: 0px;margin-left: calc(50% - 300px);margin-right: calc(50% - 300px);}
 .deep{background: linear-gradient(#412c1a, #0c0401);}
 .card{padding: 20px;padding-left: 30px;padding-right: 30px;margin-bottom: 20px;border-radius: 10px;background-color: #835c3c;}
